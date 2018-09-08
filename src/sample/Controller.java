@@ -24,15 +24,4 @@ public class Controller {
 
     }
 
-    @FXML
-    private void button2Pressed(ActionEvent event) throws IOException {
-        //System.out.println("in button2pressed");
-
-        Stage stage = Main.getPrimaryStage();
-
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-
-        stage.setScene(new Scene(root, 300, 275));
-        stage.show();
-    }
 }
